@@ -12,12 +12,6 @@ Configure static routes for remote networks
 Verify end-to-end connectivity using ping
 Examine routing tables to understand packet forwarding
 
-## Technologies Used
-
-Cisco Packet Tracer
-Static Routing
-IPv4 Addressing
-
 ## Files Included
 
 I) .pkt – Cisco Packet Tracer lab file
