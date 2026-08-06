@@ -1,4 +1,4 @@
-# CCNA Labs
+# CCNA Labs 
 
 This repository contains my Cisco CCNA hands-on labs completed using Cisco Packet Tracer. The labs cover fundamental networking concepts, device configuration, switching, routing, network security, and other core topics introduced throughout the CCNA curriculum.
 
@@ -29,3 +29,7 @@ Each lab includes the Packet Tracer (.pkt) file along with a dedicated README ex
 ## Purpose
 
 This repository serves as a collection of my practical CCNA networking labs and demonstrates my hands-on experience with Cisco device configuration and network implementation.
+
+## Password
+
+Where ever authentication is required use password cisco.
