@@ -1,4 +1,4 @@
-# CCNA Lab – Static Routing
+## Static Routing
 
 ## Overview
 
