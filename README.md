@@ -32,4 +32,4 @@ This repository serves as a collection of my practical CCNA networking labs and 
 
 ## Password
 
-Where ever authentication is required use password cisco.
+Use the password cisco wherever authentication is required.
