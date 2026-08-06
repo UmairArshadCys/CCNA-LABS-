@@ -14,8 +14,8 @@ Examine routing tables to understand packet forwarding
 
 ## Files Included
 
-.pkt – Cisco Packet Tracer lab file
- Screenshot – Configuration and verification results
+I) .pkt – Cisco Packet Tracer lab file
+II) Screenshot – Configuration and verification results
 
 ## Outcome
 
