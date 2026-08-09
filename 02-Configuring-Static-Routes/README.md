@@ -1,17 +1,8 @@
-# Static Routing
+# Static Routing Lab
 
 ## Overview
 
-This lab demonstrates how to configure static routing in a small network consisting of three routers and multiple end devices. The objective is to establish communication between different networks using manually configured static routes.
-
-## Objectives
-
-Configure basic settings on routers and PCs.
-Assign IPv4 addresses to network interfaces.
-Configure static routes for remote networks.
-Verify end-to-end connectivity using ping.
-Examine routing tables to understand packet forwarding.
-Practice troubleshooting incorrect static routes and IP addressing.
+This lab demonstrates **static routing** between multiple routers to enable communication between separate networks. Static routes are manually configured on the routers to provide paths toward remote networks.
 
 ## Files Included
 
@@ -19,7 +10,12 @@ Static-Routing-Configuration.pkt – Complete static routing configuration lab.
 Static-Routing-Troubleshooting-Challenge.pkt – Lab containing incorrect static routes and IP addressing errors for troubleshooting practice.
 Static-Routing-Troubleshooting-Solution.pkt – Corrected version of the troubleshooting lab with all issues resolved.
 
+## Key Configuration
 
-## Outcome
+### Static Route Configuration
 
-After completing the configuration, devices on different networks were able to communicate successfully. Connectivity was verified through ping tests, demonstrating that the static routes were configured correctly.
+```cisco
+ip route 192.168.1.0 255.255.255.0 192.168.12.1
+ip route 192.168.3.0 255.255.255.0 192.168.13.3
+
+
