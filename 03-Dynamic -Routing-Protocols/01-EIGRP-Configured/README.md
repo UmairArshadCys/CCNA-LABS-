@@ -13,9 +13,5 @@ router eigrp 1
  router-id 2.2.2.2
  network 10.0.0.0
  no auto-summary
-
-### Unequal-Cost Load Balancing
-
-```cisco
 router eigrp 1
  variance 2
