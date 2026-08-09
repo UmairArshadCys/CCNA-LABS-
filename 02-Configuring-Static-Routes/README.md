@@ -6,9 +6,9 @@ This lab demonstrates **static routing** between multiple routers to enable comm
 
 ## Files Included
 
-Static-Routing-Configuration.pkt – Complete static routing configuration lab.
-Static-Routing-Troubleshooting-Challenge.pkt – Lab containing incorrect static routes and IP addressing errors for troubleshooting practice.
-Static-Routing-Troubleshooting-Solution.pkt – Corrected version of the troubleshooting lab with all issues resolved.
+*Static-Routing-Configuration.pkt – Complete static routing configuration lab.
+*Static-Routing-Troubleshooting-Challenge.pkt – Lab containing incorrect static routes and IP addressing errors for troubleshooting practice.
+*Static-Routing-Troubleshooting-Solution.pkt – Corrected version of the troubleshooting lab with all issues resolved.
 
 ## Key Configuration
 
