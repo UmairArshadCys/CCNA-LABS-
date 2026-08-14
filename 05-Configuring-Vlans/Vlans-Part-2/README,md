@@ -1,0 +1,35 @@
+## Overview
+
+Configured VLAN segmentation, access ports, trunking between SW1 and SW2, and Router-on-a-Stick (ROAS) on R1 to enable communication between VLANs 10, 20, and 30. VLAN 999 was used as the native VLAN on the trunk links.
+
+## Key Configuration
+
+```cisco
+! Access ports
+interface range f0/1-2
+ switchport mode access
+ switchport access vlan 10
+
+interface range f0/3-4
+ switchport mode access
+ switchport access vlan 30
+
+! Trunk
+interface g0/1
+ switchport mode trunk
+ switchport trunk native vlan 999
+ switchport trunk allowed vlan 10,20,30,999
+
+! ROAS
+interface g0/0.10
+ encapsulation dot1Q 10
+ ip address 10.0.0.62 255.255.255.192
+
+interface g0/0.20
+ encapsulation dot1Q 20
+ ip address 10.0.0.126 255.255.255.192
+
+interface g0/0.30
+ encapsulation dot1Q 30
+ ip address 10.0.0.190 255.255.255.192
+```
