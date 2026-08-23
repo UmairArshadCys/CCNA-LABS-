@@ -1,5 +1,3 @@
-Absolutely. Since you completed all 6 tasks, here is a clean GitHub README with **only the two headings** you wanted: **Overview** and **Configuration**.
-
 # Overview
 
 This lab demonstrates EtherChannel configuration using LACP, PAgP, and static EtherChannel. Layer 2 EtherChannels are configured as trunks between access and distribution switches, while a Layer 3 EtherChannel is configured between the distribution switches. Static routing is then configured to provide connectivity between the PC and server networks. Finally, EtherChannel load balancing is configured using source and destination IP addresses.
